@@ -1,0 +1,13 @@
+{
+  "name": "csv-cleanup-helper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "rm -rf output && node clean-csv.js samples/input.csv output/cleaned.csv --required Name,Email && diff -u samples/expected-output.csv output/cleaned.csv",
+    "check": "node --check clean-csv.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

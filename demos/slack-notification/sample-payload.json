@@ -1,0 +1,18 @@
+{
+  "type": "CHANGE_STATUS",
+  "app": {
+    "id": "123",
+    "name": "Demo Requests"
+  },
+  "record": {
+    "$id": {
+      "value": "1001"
+    },
+    "title": {
+      "value": "Prepare monthly report"
+    },
+    "status": {
+      "value": "In Review"
+    }
+  }
+}
