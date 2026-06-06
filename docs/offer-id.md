@@ -1,13 +1,13 @@
 # Kintone Ops Automation Sprint
 
-Saya membantu tim yang memakai kintone, Slack, Google Sheets, CSV, dan proses admin manual untuk mengotomasi pekerjaan kecil yang berulang.
+Saya membantu perusahaan Jepang dan partner/agency kintone di Jepang yang memakai kintone, Slack, Google Sheets, CSV, dan proses admin manual untuk mengotomasi pekerjaan kecil yang berulang.
 
 Fokusnya bukan membangun sistem besar dari nol. Fokusnya adalah mengurangi pekerjaan manual yang jelas, berulang, dan bisa diperbaiki dengan scope kecil.
 
 ## Cocok untuk
 
-- Perusahaan kecil atau menengah yang sudah memakai kintone
-- Agency atau partner kintone yang butuh bantuan implementasi kecil
+- Perusahaan kecil atau menengah di Jepang yang sudah memakai kintone
+- Agency atau partner kintone di Jepang yang butuh bantuan implementasi kecil
 - Tim operasional yang sering melakukan cek manual, copy-paste, reminder, atau CSV cleanup
 - Tim yang ingin validasi manfaat otomasi sebelum masuk proyek besar
 

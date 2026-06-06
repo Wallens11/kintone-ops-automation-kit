@@ -1,6 +1,6 @@
 # Kintone・Slack・Google Sheets の手作業を小さく自動化します
 
-kintone、Slack、Google Sheets、CSV まわりで毎週くり返している確認・転記・通知・整形作業を、小さな単位で改善します。
+日本国内の企業・kintone 支援会社向けに、kintone、Slack、Google Sheets、CSV まわりで毎週くり返している確認・転記・通知・整形作業を、小さな単位で改善します。
 
 大きなシステム刷新ではなく、今ある運用を活かしながら、現場の手間とミスを少しずつ減らすための支援です。
 

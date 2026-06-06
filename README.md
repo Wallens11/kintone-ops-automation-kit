@@ -1,14 +1,14 @@
 # Kintone Ops Automation Kit
 
-Small workflow automation demos and service materials for teams using kintone, Slack, Google Sheets, CSV files, and manual admin workflows.
+Small workflow automation demos and service materials for Japanese companies and Japanese kintone partners using kintone, Slack, Google Sheets, CSV files, and manual admin workflows.
 
-This repository is a public-safe starter kit. It contains demo code, offer documents, landing page copy, and outreach templates for small scoped automation work. It does not include customer data, API tokens, secrets, internal screenshots, or production credentials.
+This repository is a public-safe starter kit. It contains demo code, offer documents, landing page copy, and outreach templates for small scoped automation work in the Japanese market. It does not include customer data, API tokens, secrets, internal screenshots, or production credentials.
 
 This project is not affiliated with, sponsored by, or endorsed by Cybozu, Inc. Product names are used only to describe compatible workflow patterns.
 
 ## 日本語
 
-このリポジトリは、kintone、Slack、Google Sheets、CSV、手作業の事務フローを対象にした小規模な業務自動化デモ集です。
+このリポジトリは、日本国内の企業・kintone 支援会社向けに、kintone、Slack、Google Sheets、CSV、手作業の事務フローを対象にした小規模な業務自動化デモ集です。
 
 主な対象は、次のような小さく切り出せる改善です。
 
@@ -22,14 +22,14 @@ This project is not affiliated with, sponsored by, or endorsed by Cybozu, Inc. P
 
 ## English
 
-This repo contains lightweight workflow automation demos for kintone, Slack, Google Sheets, CSV cleanup, reminders, and reporting support.
+This repo contains lightweight workflow automation demos for Japanese companies and Japanese kintone partners working with kintone, Slack, Google Sheets, CSV cleanup, reminders, and reporting support.
 
 It is intended as:
 
 - a technical portfolio,
 - a demo kit for potential clients,
 - a base for small kintone customization or integration projects,
-- a sales support asset for outreach to Japanese kintone partners and SMB teams.
+- a sales support asset for outreach to Japanese kintone partners and Japanese SMB teams.
 
 ## Demo Projects
 

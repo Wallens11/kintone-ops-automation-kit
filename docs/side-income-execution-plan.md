@@ -2,28 +2,28 @@
 
 Working date: 2026-06-07.
 
-Goal: start serious side-income execution from Monday, 2026-06-08, with a small service offer and a public-safe technical demo.
+Goal: start serious side-income execution from Monday, 2026-06-08, with a small service offer and a public-safe technical demo focused on Japanese companies and Japanese kintone partners.
 
 ## Positioning
 
 Recommended positioning:
 
-> Small workflow automation for teams using kintone, Slack, Google Sheets, CSV, and manual admin processes.
+> Small workflow automation for Japanese teams using kintone, Slack, Google Sheets, CSV, and manual admin processes.
 
 Why this is the right MVP:
 
 - It matches existing technical strengths.
 - It can be sold as a small service before building a SaaS.
 - It avoids heavy infra, auth, billing, and customer-data risk.
-- It gives partner agencies something concrete to review.
+- It gives Japanese partner agencies something concrete to review.
 
 ## Channel Priority
 
 | Priority | Channel | Why | Risk |
 | --- | --- | --- | --- |
-| 1 | Direct outreach to kintone partners/agencies | Best fit for small subcontract work and faster trust path. | Needs clear portfolio and conservative wording. |
+| 1 | Direct outreach to Japanese kintone partners/agencies | Best fit for small subcontract work and faster trust path. | Needs clear portfolio and conservative wording. |
 | 2 | Freelance platforms / side-job platforms | Existing demand signal for kintone support. | Platform fees, competition, and closed listings. |
-| 3 | Direct SMB outreach | Higher margin if trust is built. | Harder cold-start without referrals. |
+| 3 | Direct Japanese SMB outreach | Higher margin if trust is built. | Harder cold-start without referrals. |
 | 4 | Digital templates on BOOTH/Gumroad/note | Good later as productized assets. | Slower income path; needs audience/distribution. |
 
 ## First Week MVP
