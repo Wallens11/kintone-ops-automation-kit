@@ -14,6 +14,7 @@ Fokusnya bukan membangun sistem besar dari nol. Fokusnya adalah mengurangi peker
 ## Yang bisa dibantu
 
 - kintone JavaScript customization
+- Penggunaan dan konfigurasi plugin kintone
 - Validasi field sebelum save atau sebelum process action
 - Slack notification dan reminder sederhana
 - Persiapan integrasi CSV / Google Sheets

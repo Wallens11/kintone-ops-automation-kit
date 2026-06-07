@@ -2,7 +2,7 @@
   "use strict";
 
   window.ProcessGuardLiteConfig = {
-    // TODO: Replace these placeholder field codes with your own kintone app field codes.
+    // Replace these placeholder field codes with your own kintone app field codes.
     STATUS_FIELD_CODE: "status",
     DUE_DATE_FIELD_CODE: "due_date",
     TITLE_FIELD_CODE: "title",

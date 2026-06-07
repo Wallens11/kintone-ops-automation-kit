@@ -2,7 +2,7 @@
 
 Small workflow automation demos and service materials for Japanese companies and Japanese kintone partners using kintone, Slack, Google Sheets, CSV files, and manual admin workflows.
 
-This repository is a public-safe starter kit. It contains demo code, offer documents, landing page copy, and outreach templates for small scoped automation work in the Japanese market. It does not include customer data, API tokens, secrets, internal screenshots, or production credentials.
+This repository is a public-safe portfolio kit. It contains small demo code and service documents for scoped automation work in the Japanese market. It does not include customer data, API tokens, secrets, internal screenshots, or production credentials.
 
 This project is not affiliated with, sponsored by, or endorsed by Cybozu, Inc. Product names are used only to describe compatible workflow patterns.
 
@@ -19,6 +19,19 @@ This project is not affiliated with, sponsored by, or endorsed by Cybozu, Inc. P
 - 週次レポート作成の下準備
 
 大規模な基幹システム導入を一人で請け負うためのものではありません。現場の小さな詰まりを見つけ、既存ツールの範囲で安全に改善するためのスターターキットです。
+
+## What This Demonstrates
+
+This repo is intentionally small. It shows practical judgment in the type of work that often appears around kintone operations:
+
+- status-based validation and process-action guardrails,
+- placeholder-driven kintone JavaScript customization,
+- server-side Slack webhook handling with environment variables,
+- CSV cleanup before import,
+- public-safe documentation,
+- clear separation between demo assumptions and production client work.
+
+It is not a claim of official Cybozu partner status, enterprise delivery capacity, or production readiness without client-specific review.
 
 ## English
 
@@ -39,6 +52,20 @@ It is intended as:
 | `demos/slack-notification` | Receives a webhook payload and sends a Slack message. | Slack webhook, only when configured |
 | `demos/csv-cleanup-helper` | Cleans CSV files before import by trimming values and validating required columns. | None |
 
+## Current Verification
+
+The current demo checks were run locally:
+
+```bash
+cd demos/slack-notification && npm run check
+cd demos/csv-cleanup-helper && npm run check
+cd demos/csv-cleanup-helper && npm test
+cd demos/process-guard-lite && node --check src/config.js
+cd demos/process-guard-lite && node --check src/index.js
+```
+
+These checks validate syntax and the CSV sample flow. The kintone customization still needs sandbox testing against the target app field codes before production use.
+
 ## Repository Structure
 
 ```text
@@ -47,10 +74,7 @@ It is intended as:
 ├── docs/
 │   ├── offer-ja.md
 │   ├── offer-id.md
-│   ├── case-study-template.md
-│   ├── github-profile-readme-draft.md
-│   ├── outbound-templates.md
-│   └── side-income-execution-plan.md
+│   └── case-study-template.md
 ├── demos/
 │   ├── process-guard-lite/
 │   ├── slack-notification/
@@ -98,6 +122,14 @@ Before using any demo in production:
 - confirm logging does not expose sensitive data,
 - document client-specific assumptions outside this public repo.
 
+## Limitations
+
+- Field codes, status names, and Slack message mapping are placeholders.
+- The kintone demo should be tested in a sandbox app before any production rollout.
+- The Slack demo does not persist payloads and is not a full integration platform.
+- The CSV helper is for small controlled imports, not large-scale data migration.
+- Client-specific requirements, permissions, and rollback steps should be documented outside this public repo.
+
 ## AI Usage
 
-Initial drafts and repository structure were AI-assisted, then reviewed and constrained around a small, public-safe MVP. Any production client implementation should be manually reviewed, tested, and adapted to the client's actual workflow.
+Some planning and wording were AI-assisted. The final scope was constrained around small public-safe demos, with no customer data, secrets, internal screenshots, or production credentials. Production client work should always be reviewed, tested, and adapted to the actual workflow.

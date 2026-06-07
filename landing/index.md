@@ -69,4 +69,4 @@
 
 kintone、Slack、CSV、Google Sheets 周りで「毎回少し面倒」「確認漏れが起きやすい」と感じる作業があれば、お気軽にご相談ください。
 
-TODO: Add contact URL or email after deciding the public contact channel.
+このページやリポジトリを共有している応募・相談チャネルからご連絡ください。初回相談では、API トークン、顧客データ、機密資料は不要です。
