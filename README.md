@@ -130,6 +130,8 @@ Before using any demo in production:
 - The CSV helper is for small controlled imports, not large-scale data migration.
 - Client-specific requirements, permissions, and rollback steps should be documented outside this public repo.
 
-## AI Usage
+## Public Review Notes
 
-Some planning and wording were AI-assisted. The final scope was constrained around small public-safe demos, with no customer data, secrets, internal screenshots, or production credentials. Production client work should always be reviewed, tested, and adapted to the actual workflow.
+- The demos are intentionally small and use placeholder field codes.
+- No customer data, secrets, internal screenshots, or production credentials are included.
+- Real client work should be reviewed, tested, and adapted to the actual workflow before production use.
